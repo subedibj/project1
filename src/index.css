@@ -8,6 +8,9 @@
  	background-size:cover;
 	 background-attachment: fixed;
 }
+.home .btn{
+	background:black;
+}
 .home h2{
 	color:gold;
 	font-weight:bold;
@@ -94,3 +97,20 @@ nav img{
 	color:brown;
 	transform: scale(1.2);
 }
+
+
+  @media (max-width:991px){
+	.home h1 {font-size:25px;}
+	.home h2{ font-size:20px;}
+	.home p{ font-size:15px;}
+  }
+  @media (max-width:768px){
+	.home h1 {font-size:20px;}
+	.home h2{ font-size:15px;}
+	.home p{ font-size:12px;}
+  }
+  @media (max-width:375px){
+	.home h1 {font-size:16px;}
+	.home h2{ font-size:12px;}
+	.home p{ font-size:10px;}
+  }
